@@ -1,4 +1,11 @@
 {
-  "listings": [],
-  "first_run": true
+  "listings": [
+    {
+      "id": "fb52282e294000f474cfd7bbaa2de32d",
+      "title": "full_page_hash",
+      "url": "https://house-cg.com.tw/",
+      "selector": "body"
+    }
+  ],
+  "first_run": false
 }
