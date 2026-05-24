@@ -173,6 +173,10 @@ async def main() -> None:
             )
     else:
         print("沒有新房源")
+        await send_telegram(
+            f"🔍 <b>好室正居今日無新房源</b>\n\n"
+            f"🔗 {SITE_URL}"
+        )
 
     save_state(listings)
 
